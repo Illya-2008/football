@@ -52,7 +52,7 @@ body{
 }
 
 .logo img:hover{
-    padding-left: 400px;
+    padding-left: 370px;
 }
 
 .contact-info p{
@@ -95,6 +95,7 @@ body{
 .scope{
     float: left;
     max-width: 595px;
+    margin-bottom: 20px;
 }
 
 .scope p{
