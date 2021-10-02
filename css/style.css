@@ -24,6 +24,7 @@ body{
  
 .logo { 
     display: flex; 
+    align-items: center;
 } 
  
 .header{ 
@@ -88,6 +89,10 @@ body{
     font-size: 2.4rem; 
     color: #39930d; 
 } 
+
+.section{
+    display: flex;
+}
  
 .main{ 
     display: flex; 
@@ -168,6 +173,9 @@ ul{
     .menu{ 
         width: 100%; 
     } 
+    .section{
+        display: block;
+    }
 } 
 @media screen and (max-width: 610px) { 
     .header{ 
